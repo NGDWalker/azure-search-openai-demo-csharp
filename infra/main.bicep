@@ -21,9 +21,9 @@ param openAiResourceGroupLocation string
 
 @description('Name of the chat GPT model. Default: gpt-35-turbo')
 @allowed([ 'gpt-35-turbo', 'gpt-4', 'gpt-4o', 'gpt-35-turbo-16k', 'gpt-4-16k' ])
-param azureOpenAIChatGptModelName string = 'gpt-35-turbo'
+param azureOpenAIChatGptModelName string = 'gpt-4'
 
-param azureOpenAIChatGptModelVersion string ='0613'
+param azureOpenAIChatGptModelVersion string ='turbo-2024-04-09'
 
 @description('Name of the Azure Application Insights dashboard')
 param applicationInsightsDashboardName string = ''
